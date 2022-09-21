@@ -11,6 +11,7 @@ public class Exercise8 {
 			int n2 = n1.nextInt();
 			System.out.println();
 			System.out.println("Su número es: " + n2);
+			n1.close();
 	}
 
 }
