@@ -7,7 +7,7 @@ public class Exercise23 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Scanner is started to introduce data into variables. Then variables are declared.
+		//Scanner is started to introduce data into variables, then variables are declared
 		Scanner sc = new Scanner(System.in);
 		int byear = sc.nextInt();
 		int year = sc.nextInt();
