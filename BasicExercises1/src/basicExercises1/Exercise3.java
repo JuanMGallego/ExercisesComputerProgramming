@@ -9,16 +9,16 @@ public class Exercise3 {
 		
 		//Scanner is started to introduce data into variables, then variables are declared
 		Scanner sc = new Scanner(System.in);
-		int byear = sc.nextInt();
-		int year = sc.nextInt();
+		int byear;
+		int year;
 		
 		//Born year is asked
 		System.out.print("Introduzca su año de nacimiento: ");
-		System.out.println();
+		byear = sc.nextInt();
 		
 		//Actual year is asked
 		System.out.print("Introduzca el año actual: ");
-		System.out.println();
+		year = sc.nextInt();
 		
 		//age of user is calculated in two ways	
 		int age = year - byear;
