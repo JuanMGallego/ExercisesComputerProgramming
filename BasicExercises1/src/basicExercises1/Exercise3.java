@@ -9,8 +9,7 @@ public class Exercise3 {
 		
 		//Scanner is started to introduce data into variables, then variables are declared
 		Scanner sc = new Scanner(System.in);
-		int byear;
-		int year;
+		int byear, year, age, age2;
 		
 		//Born year is asked
 		System.out.print("Introduzca su año de nacimiento: ");
@@ -21,8 +20,8 @@ public class Exercise3 {
 		year = sc.nextInt();
 		
 		//age of user is calculated in two ways	
-		int age = year - byear;
-		int age2 = year - byear - 1;
+		age = year - byear;
+		age2 = year - byear - 1;
 
 		if (age2 <= 0) { //If the result turns illogical, it gives an error
 			System.out.println("Ha introducido mal los datos, vuelva a introducirlos");

@@ -8,9 +8,7 @@ public class Exercise4 {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		float m1;
-		float m2;
-		float mm;
+		float m1, m2, mm;
 		
 		System.out.println("Programa para calcular la media aritmética de dos notas.");
 		System.out.println();
