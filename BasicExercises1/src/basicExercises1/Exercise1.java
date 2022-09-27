@@ -6,12 +6,21 @@ public class Exercise1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Introduzca un nÃºmero: ");
-		Scanner n1 = new Scanner(System.in);
-		int n2 = n1.nextInt();
+		
+		//Scanner is started to introduce data into variables, then the variable is declared
+		Scanner sc = new Scanner(System.in);
+		int n;
+		
+		//Number is asked
+		System.out.print("Introduzca un número: ");
+		n = sc.nextInt();
 		System.out.println();
-		System.out.println("Su nÃºmero es: " + n2);
-		n1.close();
+		
+		//The final result is printed
+		System.out.println("Su número es: " + n);
+		
+		sc.close(); //scanner closes
+		
 	}
 
 }
