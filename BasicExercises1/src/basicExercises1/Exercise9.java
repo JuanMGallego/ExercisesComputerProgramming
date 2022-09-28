@@ -7,7 +7,7 @@ public class Exercise9 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Scanner is started to introduce data into variables, then variables are declared
+		//Scanner is started to introduce data into variables, then variables and constants are declared
 		Scanner sc = new Scanner(System.in);
 		float pts, eur;
 		final double PTA = 0.006;
@@ -21,7 +21,7 @@ public class Exercise9 {
 		pts = sc.nextFloat();
 		System.out.println();
 		
-		//pesetas are converted to euros using the costant
+		//pesetas are converted to euros using the constant
 		eur = (float)(pts*PTA);
 		
 		//final result is printed

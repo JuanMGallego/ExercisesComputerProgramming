@@ -7,7 +7,7 @@ public class Exercise10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Scanner is started to introduce data into variables, then variables are declared
+		//Scanner is started to introduce data into variables, then variables and constants are declared
 		Scanner sc = new Scanner(System.in);
 		float gross, net;
 		final double IVA = 0.79;
