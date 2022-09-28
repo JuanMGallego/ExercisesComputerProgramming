@@ -2,26 +2,25 @@ package basicExercises2;
 
 import java.util.Scanner;
 
-public class Exercise2 {
+public class Exercise3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Scanner is started to introduce data into variables, then variables and constants are declared
 		Scanner sc = new Scanner(System.in);
-		int age;
-		boolean overage;
+		double num;
+		boolean  even_num;
 		
 		//age is asked
 		System.out.print("Introduzca su edad: ");
-		age = sc.nextInt();
+		num = sc.nextInt();
 		System.out.println();
 		
-		//if the age introduced is 18 or more, the boolean will be true
-		overage = age >= 18;
+		//if the rests, the boolean will be true
+		even_num = num%2 == 0;
 		
 		//final result is printed
-		System.out.println("¿Es ustéd mayor de edad?: " + overage);
+		System.out.println("¿Es ustéd mayor de edad?: " + even_num);
 		
 		sc.close(); //scanner closes
 		
