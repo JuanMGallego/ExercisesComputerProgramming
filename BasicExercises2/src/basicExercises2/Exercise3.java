@@ -9,18 +9,18 @@ public class Exercise3 {
 
 		Scanner sc = new Scanner(System.in);
 		double num;
-		boolean  even_num;
+		boolean  evenNum;
 		
 		//age is asked
-		System.out.print("Introduzca su edad: ");
+		System.out.print("Introduzca un número: ");
 		num = sc.nextInt();
 		System.out.println();
 		
-		//if the rests, the boolean will be true
-		even_num = num%2 == 0;
+		//if the rest is 0, the boolean will be true
+		evenNum = num%2 == 0;
 		
 		//final result is printed
-		System.out.println("¿Es ustéd mayor de edad?: " + even_num);
+		System.out.println("¿Es el número par?: " + evenNum);
 		
 		sc.close(); //scanner closes
 		
