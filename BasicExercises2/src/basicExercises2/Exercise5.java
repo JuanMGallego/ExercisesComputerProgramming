@@ -7,7 +7,7 @@ public class Exercise5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Scanner is started to introduce data into variables
+		//Scanner is started to introduce data into variables, then variables are declared
 		Scanner sc = new Scanner(System.in);
 		int term1, term2, term3, repCard;
 		float record;

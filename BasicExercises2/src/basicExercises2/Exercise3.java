@@ -7,6 +7,7 @@ public class Exercise3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//Scanner is started to introduce data into variables, then variables are declared
 		Scanner sc = new Scanner(System.in);
 		double num;
 		boolean  evenNum;
